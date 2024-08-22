@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Global presets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+  font-size: 10px;
+  max-width: 100%;
+}
+
+/* Global selectors */
+
+video,
+img,
+iframe {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Page header styling */
+
+#page--header {
+  margin: 0 auto;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+#page--logo {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  display: flex;
+}
+/* Navbar styling */
+
+#top--navbar {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#top--navbar--links {
+  display: none;
+}
+
+#top--navbar a {
+  font-size: 1.6rem;
+}
+
+#top--navbar i {
+  font-size: 1.8rem;
+  padding: 1.5rem;
+}
+
+/* Navbar Media Query */
+
+@media screen and (min-width: 700px) {
+  #top--navbar--links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  #top--navbar i {
+    display: none;
+  }
+}
+
+/* End of Navbar styles */
+
+/* Start of Home Section Styles */
+
+#home--section {
+  background-color: aquamarine;
+}
+
+.home--section--container {
+  width: 95%;
+  margin: 2rem auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  color: blueviolet;
+  padding-top: 1.6rem;
+}
+
+.home--subheading--one {
+  font-size: 1.8rem;
+  color: blueviolet;
+  text-align: center;
+  padding-bottom: 1.6rem;
+}
+
+.introduction--video {
+  display: flex;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.home--subheading--two {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: blueviolet;
+}
+
+.home--paragraph-text {
+    font-size: 1.6rem;
+    text-align: justify;
+    line-height: 1.8;
+    padding-bottom: 2rem;
+    color: rgb(111, 3, 212);
+}
